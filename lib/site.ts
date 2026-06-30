@@ -7,7 +7,7 @@ export const site = {
   url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.dndbuilds.ca",
   phone: "(416) 555-0148", // TODO: replace with your real number
   phoneHref: "tel:+16478311092",
-  email: "info@dndbuilds.ca", // TODO: replace with your real inbox
+  email: "ddbuildsnow@gmail.com", // TODO: replace with your real inbox
   address: {
     locality: "Oakville",
     region: "ON",
@@ -16,7 +16,7 @@ export const site = {
   serviceRadiusKm: 100,
   hours: "Mon–Sat, 8:00 AM – 6:00 PM",
   social: {
-    instagram: "https://instagram.com/dndbuilds", // TODO: replace
+    instagram: "https://instagram.com/ddbuildsnow", // TODO: replace
     facebook: "https://facebook.com/dndbuilds", // TODO: replace
     google: "https://g.page/dndbuilds", // TODO: replace with Google Business Profile link
   },
