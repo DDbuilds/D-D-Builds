@@ -6,7 +6,7 @@ export const site = {
     "D&D Builds is a full-service renovation and general contracting company serving Toronto and the GTA — full home renovations, basements, kitchens, bathrooms, flooring, staircases and commercial projects.",
   url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.dndbuilds.ca",
   phone: "(416) 555-0148", // TODO: replace with your real number
-  phoneHref: "tel:+14165550148",
+  phoneHref: "tel:+16478311092",
   email: "info@dndbuilds.ca", // TODO: replace with your real inbox
   address: {
     locality: "Oakville",
