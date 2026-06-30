@@ -1,0 +1,107 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+body {
+  @apply bg-paper text-ink font-sans antialiased;
+}
+
+::selection {
+  background: #b08d3e;
+  color: #fafaf7;
+}
+
+/* ── Signature element: the "level line" ─────────────────────────────────────
+   A builder's laser-level rule with tick marks, used as section dividers.   */
+.level-line {
+  position: relative;
+  height: 1px;
+  background: linear-gradient(to right, transparent, #d8d5cc 12%, #d8d5cc 88%, transparent);
+}
+.level-line::before {
+  content: "";
+  position: absolute;
+  inset: -3px 0 auto 0;
+  height: 7px;
+  background-image: repeating-linear-gradient(
+    to right,
+    transparent 0,
+    transparent 47px,
+    #b08d3e 47px,
+    #b08d3e 48px
+  );
+  opacity: 0.55;
+  mask-image: linear-gradient(to right, transparent, black 15%, black 85%, transparent);
+  -webkit-mask-image: linear-gradient(to right, transparent, black 15%, black 85%, transparent);
+}
+.level-line--dark {
+  background: linear-gradient(to right, transparent, #3a382f 12%, #3a382f 88%, transparent);
+}
+
+/* Eyebrow labels — site-annotation style */
+.eyebrow {
+  @apply font-mono text-[11px] uppercase tracking-[0.22em] text-brass;
+}
+
+/* Focus visibility */
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible {
+  outline: 2px solid #b08d3e;
+  outline-offset: 2px;
+}
+
+/* Blog / long-form prose */
+.prose-dnd {
+  @apply text-[17px] leading-relaxed text-ink/85;
+}
+.prose-dnd h2 {
+  @apply font-display text-2xl md:text-3xl text-ink mt-10 mb-4;
+}
+.prose-dnd h3 {
+  @apply font-display text-xl text-ink mt-8 mb-3;
+}
+.prose-dnd p {
+  @apply my-4;
+}
+.prose-dnd ul,
+.prose-dnd ol {
+  @apply my-4 pl-6 space-y-2;
+}
+.prose-dnd ul {
+  @apply list-disc;
+}
+.prose-dnd ol {
+  @apply list-decimal;
+}
+.prose-dnd strong {
+  @apply text-ink font-semibold;
+}
+.prose-dnd a {
+  @apply text-brassDeep underline underline-offset-4 decoration-brass/50 hover:decoration-brassDeep;
+}
+.prose-dnd em {
+  @apply italic;
+}
