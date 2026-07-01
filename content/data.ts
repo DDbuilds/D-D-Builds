@@ -29,7 +29,7 @@ export const projects: Project[] = [
     title: "Engineered Oak, Whole Main Floor",
     category: "Flooring",
     location: "Oakville",
-    image: "/projects/flooring-1.svg",
+    image: "/projects/PHOTO-2025-06-11-14-42-27.JPG",
     description:
       "1,400 sq ft of wide-plank engineered oak with flush vents and matching stair nosing.",
   },
