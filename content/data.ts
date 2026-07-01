@@ -37,7 +37,7 @@ export const projects: Project[] = [
     title: "Herringbone LVP Condo Install",
     category: "Flooring",
     location: "Toronto",
-    image: "/projects/flooring-2.svg",
+    image: "/projects/PHOTO-2025-06-11-14-45-34.JPG",
     description:
       "Herringbone luxury vinyl plank over levelled concrete in a downtown condo.",
   },
