@@ -69,7 +69,7 @@ export const projects: Project[] = [
     title: "Family Bathroom Full Gut",
     category: "Bathrooms",
     location: "Scarborough",
-    image: "/projects/bathroom-2.svg",
+    image: "/projects/5c03bfb3-b47a-44b0-9eda-6efaae0f27b2.JPG",
     description:
       "Complete renovation with large-format tile, custom niche and new ventilation.",
   },
@@ -85,7 +85,7 @@ export const projects: Project[] = [
     title: "Basement Family Room & Gym",
     category: "Basements",
     location: "Toronto",
-    image: "/projects/basement-2.svg",
+    image: "/projects/ce251416-cb8b-427c-97f0-8594f2e4e543.JPG",
     description:
       "Warm rec room with feature wall, rubber-floor gym zone and built-in storage.",
   },
@@ -93,7 +93,7 @@ export const projects: Project[] = [
     title: "Carpet-to-Oak Staircase Conversion",
     category: "Staircases",
     location: "Oakville",
-    image: "/projects/staircase-1.svg",
+    image: "/projects/PHOTO-2025-06-03-12-38-10.JPG",
     description:
       "Solid oak treads stained to match main-floor hardwood, with modern square spindles.",
   },
@@ -101,7 +101,7 @@ export const projects: Project[] = [
     title: "Glass Railing Entry Staircase",
     category: "Staircases",
     location: "Mississauga",
-    image: "/projects/staircase-2.svg",
+    image: "/projects/PHOTO-2024-07-08-20-32-47.JPG",
     description:
       "Recladding plus frameless glass panels and a continuous oak handrail.",
   },
