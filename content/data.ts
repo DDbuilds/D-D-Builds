@@ -32,12 +32,12 @@ export const projects: Project[] = [
       "Full main-floor flooring installation with precise transitions and matching trim.",
   },
   {
-    title: "Custom Feature Wall & Finishing",
-    category: "Flooring",
-    location: "Pickering",
-    image: "/projects/backboard.jpeg",
+    title: "Finished Basement Living Space",
+    category: "Basements",
+    location: "Scarborough",
+    image: "/projects/Basement 1.jpg",
     description:
-      "Custom feature wall and finishing carpentry completed as part of a full interior refresh.",
+      "Full basement finishing — framing, drywall, flooring and lighting for a bright living area.",
   },
   {
     title: "Hardwood Flooring Installation",
