@@ -24,103 +24,62 @@ export type Project = {
 
 export const projects: Project[] = [
   {
-    title: "Engineered Oak, Whole Main Floor",
-    category: "Flooring",
-    location: "Oakville",
-    image: "/projects/PHOTO-2025-06-11-14-42-27.JPG",
-    description:
-      "1,400 sq ft of wide-plank engineered oak with flush vents and matching stair nosing.",
-  },
-  {
-    title: "Herringbone LVP Condo Install",
-    category: "Flooring",
-    location: "Toronto",
-    image: "/projects/PHOTO-2025-06-11-14-45-34.JPG",
-    description:
-      "Herringbone luxury vinyl plank over levelled concrete in a downtown condo.",
-  },
-  {
-    title: "Open-Concept Kitchen Rebuild",
-    category: "Flooring",
-    location: "Mississauga",
-    image: "/projects/kitchen-1.svg",
-    description:
-      "Load-bearing wall removed, 9-ft island added, quartz counters and full-height backsplash.",
-  },
-  {
-    title: "Two-Tone Shaker Kitchen",
+    title: "Wide-Plank Flooring Installation",
     category: "Flooring",
     location: "Richmond Hill",
-    image: "/projects/kitchen-2.svg",
+    image: "/projects/Flooring 1.jpeg",
     description:
-      "Full gut renovation with two-tone shaker cabinetry, pot lighting and porcelain tile.",
+      "Full main-floor flooring installation with precise transitions and matching trim.",
   },
   {
-    title: "Spa Ensuite with Curbless Shower",
+    title: "Custom Feature Wall & Finishing",
     category: "Flooring",
-    location: "Burlington",
-    image: "/projects/bathroom-1.svg",
+    location: "Pickering",
+    image: "/projects/backboard.jpeg",
     description:
-      "Curbless walk-in shower, heated porcelain floor, freestanding tub and double vanity.",
+      "Custom feature wall and finishing carpentry completed as part of a full interior refresh.",
   },
   {
-    title: "Family Bathroom Full Gut",
-    category: "Flooring",
+    title: "Finished Basement Living Space",
+    category: "Basements",
     location: "Scarborough",
-    image: "/projects/5c03bfb3-b47a-44b0-9eda-6efaae0f27b2.JPG",
+    image: "/projects/Basement 1.jpg",
     description:
-      "Complete renovation with large-format tile, custom niche and new ventilation.",
+      "Full basement finishing — framing, drywall, flooring and lighting for a bright living area.",
   },
   {
-    title: "Legal Basement Suite",
+    title: "Basement Renovation & Build-Out",
     category: "Basements",
-    location: "Kitchener",
-    image: "/projects/basement-1.svg",
+    location: "Scarborough",
+    image: "/projects/Basement 2.PNG",
     description:
-      "Self-contained one-bedroom suite with kitchen, egress windows and fire separation.",
+      "Complete basement build-out with durable finishes and a functional, open layout.",
   },
   {
-    title: "Basement Family Room & Gym",
-    category: "Basements",
-    location: "Toronto",
-    image: "/projects/ce251416-cb8b-427c-97f0-8594f2e4e543.JPG",
-    description:
-      "Warm rec room with feature wall, rubber-floor gym zone and built-in storage.",
-  },
-  {
-    title: "Carpet-to-Oak Staircase Conversion",
+    title: "Oak Staircase Renovation",
     category: "Staircases",
-    location: "Oakville",
-    image: "/projects/PHOTO-2025-06-03-12-38-10.JPG",
+    location: "Pickering",
+    image: "/projects/Stairs 1.jpeg",
     description:
-      "Solid oak treads stained to match main-floor hardwood, with modern square spindles.",
+      "Staircase rebuilt with solid oak treads and a clean, modern railing.",
   },
   {
-    title: "Glass Railing Entry Staircase",
+    title: "Custom Staircase Rebuild",
     category: "Staircases",
     location: "Mississauga",
-    image: "/projects/PHOTO-2024-07-08-20-32-47.JPG",
+    image: "/projects/Stairs 2.jpeg",
     description:
-      "Recladding plus frameless glass panels and a continuous oak handrail.",
+      "Full staircase reconstruction with refinished treads and updated railings.",
   },
   {
-    title: "Retail Unit Fit-Out",
-    category: "Commercial",
-    location: "Toronto",
-    image: "/projects/commercial-1.svg",
+    title: "Modern Staircase Refinish",
+    category: "Staircases",
+    location: "Mississauga",
+    image: "/projects/Stairs 3.jpeg",
     description:
-      "3,200 sq ft retail buildout delivered in six weeks for a fixed opening date.",
-  },
-  {
-    title: "Restaurant Front-of-House Renovation",
-    category: "Commercial",
-    location: "Barrie",
-    image: "/projects/commercial-2.svg",
-    description:
-      "Phased night-shift renovation that kept the restaurant open through construction.",
+      "Staircase refinished with new treads, risers and a contemporary railing design.",
   },
 ];
-
 // ─────────────────────────────────────────────────────────────────────────────
 // TESTIMONIALS — replace these placeholders with real client reviews.
 // Keep them specific: project type, city, and one concrete detail convert best.
