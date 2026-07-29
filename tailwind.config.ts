@@ -15,7 +15,7 @@ const config: Config = {
         mist: "#ECEAE4",       // light grey panels
         line: "#D8D5CC",       // hairline rules
         brass: "#C1272D",      // subtle gold accent
-        brassDeep: "#8F7022",  // gold hover / borders
+        brassDeep: "#8E1B1F",  // gold hover / borders
       },
       fontFamily: {
         display: ["var(--font-display)", "Georgia", "serif"],
