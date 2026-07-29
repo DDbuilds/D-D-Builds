@@ -7,8 +7,6 @@
 
 export const projectCategories = [
   "Flooring",
-  "Kitchens",
-  "Bathrooms",
   "Basements",
   "Staircases",
   "Commercial",
@@ -43,7 +41,7 @@ export const projects: Project[] = [
   },
   {
     title: "Open-Concept Kitchen Rebuild",
-    category: "Kitchens",
+    category: "Flooring",
     location: "Mississauga",
     image: "/projects/kitchen-1.svg",
     description:
@@ -51,7 +49,7 @@ export const projects: Project[] = [
   },
   {
     title: "Two-Tone Shaker Kitchen",
-    category: "Kitchens",
+    category: "Flooring",
     location: "Richmond Hill",
     image: "/projects/kitchen-2.svg",
     description:
@@ -59,7 +57,7 @@ export const projects: Project[] = [
   },
   {
     title: "Spa Ensuite with Curbless Shower",
-    category: "Bathrooms",
+    category: "Flooring",
     location: "Burlington",
     image: "/projects/bathroom-1.svg",
     description:
@@ -67,7 +65,7 @@ export const projects: Project[] = [
   },
   {
     title: "Family Bathroom Full Gut",
-    category: "Bathrooms",
+    category: "Flooring",
     location: "Scarborough",
     image: "/projects/5c03bfb3-b47a-44b0-9eda-6efaae0f27b2.JPG",
     description:
