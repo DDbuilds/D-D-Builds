@@ -14,7 +14,7 @@ const config: Config = {
         paper: "#FAFAF7",      // warm white background
         mist: "#ECEAE4",       // light grey panels
         line: "#D8D5CC",       // hairline rules
-        brass: "#B08D3E",      // subtle gold accent
+        brass: "#C1272D",      // subtle gold accent
         brassDeep: "#8F7022",  // gold hover / borders
       },
       fontFamily: {
