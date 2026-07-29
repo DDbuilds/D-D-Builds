@@ -55,11 +55,11 @@ export const projects: Project[] = [
     description:
       "Complete basement build-out with durable finishes and a functional, open layout.",
   },
-  {
+ {
     title: "Oak Staircase Renovation",
     category: "Staircases",
     location: "Pickering",
-    image: "/projects/Stairs 1.jpeg",
+    image: "/projects/Stairs7.JPG",
     description:
       "Staircase rebuilt with solid oak treads and a clean, modern railing.",
   },
@@ -67,7 +67,7 @@ export const projects: Project[] = [
     title: "Custom Staircase Rebuild",
     category: "Staircases",
     location: "Mississauga",
-    image: "/projects/Stairs 2.jpeg",
+    image: "/projects/Stairs8.JPG",
     description:
       "Full staircase reconstruction with refinished treads and updated railings.",
   },
@@ -75,7 +75,7 @@ export const projects: Project[] = [
     title: "Modern Staircase Refinish",
     category: "Staircases",
     location: "Mississauga",
-    image: "/projects/Stairs 3.jpeg",
+    image: "/projects/Stairs9.JPG",
     description:
       "Staircase refinished with new treads, risers and a contemporary railing design.",
   },
