@@ -40,12 +40,12 @@ export const projects: Project[] = [
       "Custom feature wall and finishing carpentry completed as part of a full interior refresh.",
   },
   {
-    title: "Finished Basement Living Space",
-    category: "Basements",
-    location: "Scarborough",
-    image: "/projects/Basement 1.jpg",
+    title: "Hardwood Flooring Installation",
+    category: "Flooring",
+    location: "Pickering",
+    image: "/projects/Flooring2.PNG",
     description:
-      "Full basement finishing — framing, drywall, flooring and lighting for a bright living area.",
+      "Warm-toned hardwood flooring installed throughout, with clean transitions and finished trim.",
   },
   {
     title: "Basement Renovation & Build-Out",
