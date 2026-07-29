@@ -51,7 +51,7 @@ export const projects: Project[] = [
     title: "Basement Renovation & Build-Out",
     category: "Basements",
     location: "Scarborough",
-    image: "/projects/Basement 2.PNG",
+    image: "/projects/basement 2.PNG",
     description:
       "Complete basement build-out with durable finishes and a functional, open layout.",
   },
