@@ -80,6 +80,7 @@ export const projects: Project[] = [
       "Staircase refinished with new treads, risers and a contemporary railing design.",
   },
 ];
+
 // ─────────────────────────────────────────────────────────────────────────────
 // TESTIMONIALS — replace these placeholders with real client reviews.
 // Keep them specific: project type, city, and one concrete detail convert best.
