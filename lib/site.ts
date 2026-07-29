@@ -7,7 +7,7 @@ export const site = {
   url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.dndbuilds.ca",
   phone: "(647) 831-1092", // TODO: replace with your real number
   phoneHref: "tel:+16478311092",
-  email: "ddbuildsnow@gmail.com", // TODO: replace with your real inbox
+  email: "info@ddbuilds.ca", // TODO: replace with your real inbox
   address: {
     locality: "Oakville",
     region: "ON",
